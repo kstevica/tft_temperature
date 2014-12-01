@@ -47,7 +47,7 @@ void loop(void) {
     tft.setTextSize(3);
     tft.println("Temperatura");
     tft.setCursor(110, 110);
-    tft.fillRect(120, 110, 95, 60, WHITE);
+    tft.fillRect(105, 105, 100, 70, WHITE);
     tft.println(celsius);    
   }
 
